@@ -23,6 +23,14 @@ if menu == "Beranda":
     st.header("Beranda")
     st.write("Ini adalah halaman utama aplikasi web Anda.")
     
+    # LINK GOOGLE DRIVE (SUDAH DITAMBAHKAN)
+    st.link_button(
+        "📥 Download File dari Google Drive",
+        "https://drive.google.com/file/d/1z-n2vW1cfp8wYkNkR-aIlDbXJUgQ5C--/view?usp=drive_link"
+    )
+    
+    st.markdown("---")
+    
     # Contoh input
     nama = st.text_input("Masukkan nama Anda:")
     if nama:
